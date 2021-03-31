@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container div {
+  text-align: justify;
+}

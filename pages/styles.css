@@ -1,7 +1,7 @@
 body {
   font-family: Roboto;
-  background-color: #edc0bf;
-  background: linear-gradient(90deg, #edc0bf 0, #c4caef 58%);
+  background-color: midnightblue;
+  background: linear-gradient(90deg, midnightblue 0, indigo 58%);
 }
 
 .shape {

@@ -1,0 +1,20 @@
+.container {
+  max-width: 1024px;
+  margin: auto;
+  padding: 1.5rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+
+.image {
+  height: 200px;
+  margin-top: -1.5rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  background-position: 50% 33%;
+  background-repeat: no-repeat;
+
+  background-image: url('https://cf.geekdo-images.com/_Ppn5lssO5OaildSE-FgFA__imagepagezoom/img/XukF6G6yGYG06y-ODGk7usmxZ-U=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic3727516.jpg');
+}
