@@ -1,0 +1,18 @@
+.card {
+  width: 400px;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, .5);
+  backdrop-filter: blur(10px);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card a {
+  color: #4d4ae8;
+  text-decoration: none;
+}
