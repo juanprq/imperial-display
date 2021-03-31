@@ -1,0 +1,26 @@
+[
+  {
+    "nick": "juanprq",
+    "name": "Juan Pablo Ramirez",
+    "alias": "Circasian God!",
+    "avatar": "https://avatars.dicebear.com/api/male/juanpabloramirez.svg"
+  },
+  {
+    "nick": "lufer",
+    "name": "Luisa Fernanda Ortiz",
+    "alias": "Lufer",
+    "avatar": "https://avatars.dicebear.com/api/female/luisafernandaortiz.svg"
+  },
+  {
+    "nick": "cerdo",
+    "name": "Juan David Jaramillo",
+    "alias": "El Cerdo!",
+    "avatar": "https://avatars.dicebear.com/api/male/elcerdo.svg"
+  },
+  {
+    "nick": "vulgar",
+    "name": "Andres Felipe Ramirez",
+    "alias": "el vulgarete",
+    "avatar": "https://avatars.dicebear.com/api/male/vulgar.svg"
+  }
+]
