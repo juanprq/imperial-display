@@ -1,10 +1,10 @@
 import styles from './Standings.module.css';
 
-const Standings = ({ players }) => (
+const Standings = ({ data }) => (
   <div>
     <h2>Standings</h2>
     <div className={styles.container}>
-      {players.map((player) => (
+      {data.map((player) => (
         <div key={player.nick} className={styles.player}>
           <div className={styles.avatar}>
             <img src={player.avatar} alt={`${player.nick}_avatar`} />

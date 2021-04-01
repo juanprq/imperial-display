@@ -22,5 +22,17 @@
     "name": "Andres Felipe Ramirez",
     "alias": "el vulgarete",
     "avatar": "https://avatars.dicebear.com/api/male/vulgar.svg"
+  },
+  {
+    "nick": "andrade",
+    "name": "Andres Felipe Andrade",
+    "alias": "Andrade",
+    "avatar": "https://avatars.dicebear.com/api/male/andrade.svg"
+  },
+  {
+    "nick": "chainer",
+    "name": "Alejandro León Galindo",
+    "alias": "Chainer",
+    "avatar": "https://avatars.dicebear.com/api/male/chainer.svg"
   }
 ]

@@ -14,6 +14,7 @@ const Layout = ({ children, title }) => (
     ></div>
 
     <main>
+      menu...
       <h1>{title}</h1>
 
       {children}

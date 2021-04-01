@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.game {
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  color: midnightblue;
+}
+
+.date {
+  font-size: 0.7rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.game h3 {
+  margin: 0;
+}
+
+.game hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(25, 25, 112, 0),
+    rgba(25, 25, 112, 0.75),
+    rgba(25, 25, 112, 0)
+  );
+}
+
+.result {
+  display: grid;
+  grid-template-columns: 1fr 15px 15px;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.2rem;
+  margin: 0.2rem 0rem;
+}
+
+.header {
+  font-weight: bold;
+}
