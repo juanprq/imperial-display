@@ -36,7 +36,7 @@ const Games = ({ data = [] }) => (
                     width="15"
                     alt={`Medal position ${index + 1}`}
                   />
-                  <div>15</div>
+                  <div>{player.points}</div>
                 </div>
               ))}
             </div>

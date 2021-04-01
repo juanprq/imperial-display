@@ -6,6 +6,7 @@ import Games from '../components/Games';
 import gamesService from '../lib/services/games';
 import playersData from '../lib/data/players.json';
 import gamesData from '../lib/data/games.json';
+import pointsData from '../lib/data/points.json';
 
 const Home = ({ players, games }) => (
   <Layout title="Torneo Twilight Imperium - AXM 2021">
@@ -19,7 +20,7 @@ export const getStaticProps = () => {
   return {
     props: {
       players: playersData,
-      games: gamesService.process({ gamesData, playersData }),
+      games: gamesService.process({ gamesData, playersData, pointsData }),
     },
   };
 };
