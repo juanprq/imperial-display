@@ -9,12 +9,12 @@ const Standings = ({ players }) => (
           <div className={styles.avatar}>
             <img src={player.avatar} alt={`${player.nick}_avatar`} />
           </div>
-          <div>
+          <div className={styles.name}>
+            {player.name} <span className={styles.desc}>{player.alias}</span>
+          </div>
+          <div className={styles.points}>
             <div>
-              {player.name} <span>{player.alias}</span>
-            </div>
-            <div>
-              15
+              15 <span className={styles.desc}>pts</span>
             </div>
           </div>
         </div>

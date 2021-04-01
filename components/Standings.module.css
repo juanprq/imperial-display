@@ -4,8 +4,12 @@
 }
 
 .player {
-  border: 1px solid black;
   display: flex;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, .5);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: midnightblue;
+  font-size: 2rem;
 }
 
 .avatar {
@@ -13,3 +17,22 @@
   padding: 0.5rem;
 }
 
+.name {
+  flex: 1;
+  padding: 0 1.5rem;
+  align-self: center;
+}
+
+.points {
+  font-weight: bold;
+  flex: 0 0 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desc {
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: italic;
+}
