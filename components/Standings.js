@@ -4,7 +4,7 @@ const Standings = ({ data }) => (
   <div>
     <h2>Standings</h2>
     <div className={styles.container}>
-      {data.map((player) => (
+      {data.map((player, index) => (
         <div key={player.nick} className={styles.player}>
           <div className={styles.avatar}>
             <img src={player.avatar} alt={`${player.nick}_avatar`} />
@@ -14,7 +14,7 @@ const Standings = ({ data }) => (
           </div>
           <div className={styles.points}>
             <div>
-              15 <span className={styles.desc}>pts</span>
+              {index + 1} <span className={styles.desc}>{player.points} pts</span>
             </div>
           </div>
         </div>

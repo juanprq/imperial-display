@@ -4,6 +4,7 @@ import Standings from '../components/Standings';
 import Games from '../components/Games';
 
 import gamesService from '../lib/services/games';
+import playersService from '../lib/services/players';
 import playersData from '../lib/data/players.json';
 import gamesData from '../lib/data/games.json';
 import pointsData from '../lib/data/points.json';
@@ -19,7 +20,7 @@ const Home = ({ players, games }) => (
 export const getStaticProps = () => {
   return {
     props: {
-      players: playersData,
+      players: playersService.process({ gamesData, playersData, pointsData }),
       games: gamesService.process({ gamesData, playersData, pointsData }),
     },
   };
