@@ -38,9 +38,24 @@
   grid-template-columns: 1fr 15px 15px;
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.2rem;
-  margin: 0.2rem 0rem;
+  padding: 0.2rem 0rem;
 }
 
 .header {
   font-weight: bold;
+}
+
+.row {
+  transition: 0.3s;
+  border-radius: 0.5rem;
+  font-style: italic;
+}
+
+.row:hover {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: lightyellow;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }

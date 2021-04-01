@@ -27,10 +27,10 @@ const Games = ({ data = [] }) => (
             <div className={styles.content}>
               {game.results.map((player, index) => (
                 <div
-                  key={player}
+                  key={player.nick}
                   className={classNames(styles.result, styles.row)}
                 >
-                  <div>{player}</div>
+                  <div>{player.alias}</div>
                   <img
                     src={getMedalPath(index)}
                     width="15"
