@@ -20,8 +20,6 @@ const Layout = ({ children, title }) => (
 
       {children}
     </main>
-
-    <footer>the footer...</footer>
   </div>
 );
 
