@@ -10,22 +10,27 @@ const getMedalPath = (index) => {
 const Games = ({ data = [] }) => (
   <div>
     <h2>Juegos</h2>
-    {data.length === 0 && <div>Aun no se ha jugado el primer juego.</div>}
-    {data.length > 0 && (
-      <div className={styles.container}>
-        {data.map((game, index) => (
-          <div key={game.id} className={styles.game}>
-            <h3>
-              {game.name} <span className={styles.date}>{game.date}</span>
-            </h3>
-            <hr />
-            <div className={classNames(styles.result, styles.header)}>
-              <div>Nombre</div>
-              <div></div>
-              <div>Pts</div>
-            </div>
-            <div className={styles.content}>
-              {game.results.map((player, index) => (
+    <div className={styles.container}>
+      {data.map((game, index) => (
+        <div key={game.id} className={styles.game}>
+          <h3>
+            {game.name}{' '}
+            <span className={styles.date}>
+              {new Date(game.startDate).toLocaleDateString()}
+            </span>
+          </h3>
+          <hr />
+          <div className={classNames(styles.result, styles.header)}>
+            <div>Nombre</div>
+            <div></div>
+            <div>Pts</div>
+          </div>
+          <div>
+            {game.results.length === 0 && (
+              <div className={styles.emptyMessage}>No hay resultados.</div>
+            )}
+            {game.results.length > 0 &&
+              game.results.map((player, index) => (
                 <div
                   key={player.nick}
                   className={classNames(styles.result, styles.row)}
@@ -39,11 +44,10 @@ const Games = ({ data = [] }) => (
                   <div>{player.points}</div>
                 </div>
               ))}
-            </div>
           </div>
-        ))}
-      </div>
-    )}
+        </div>
+      ))}
+    </div>
   </div>
 );
 

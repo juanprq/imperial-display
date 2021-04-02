@@ -59,3 +59,9 @@
   background-color: lightyellow;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+.emptyMessage {
+  margin: 1rem 0;
+  font-style: italic;
+  text-align: center;
+}

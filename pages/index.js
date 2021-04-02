@@ -24,7 +24,7 @@ export const getStaticProps = () => {
   return {
     props: {
       players: playersService.process({ gamesData, playersData, pointsData }),
-      games: gamesService.process({ gamesData, playersData, pointsData }),
+      games: gamesService.process({ gamesData, playersData, pointsData, datesData }),
       dates: datesData,
     },
   };
