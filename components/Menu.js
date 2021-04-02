@@ -1,10 +1,11 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import styles from './Menu.module.css';
 
 const Menu = () => (
   <nav className={styles.menu}>
-    <a href="#standings">Posiciones</a>
-    <a href="#games">Resultados</a>
-    <a href="#calendar">Calendario</a>
+    <AnchorLink href="#standings">Posiciones</AnchorLink>
+    <AnchorLink href="#games">Resultados</AnchorLink>
+    <AnchorLink href="#calendar">Calendario</AnchorLink>
   </nav>
 );
 

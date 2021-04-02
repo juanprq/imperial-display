@@ -13,6 +13,7 @@
     "next": "^10.0.0",
     "rc-year-calendar": "^1.0.2",
     "react": "17.0.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "17.0.1"
   },
   "devDependencies": {
