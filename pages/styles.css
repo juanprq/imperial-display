@@ -3,10 +3,3 @@ body {
   background-color: midnightblue;
   background: linear-gradient(90deg, midnightblue 0, indigo 58%);
 }
-
-.shape {
-  position: absolute;
-  width: 150px;
-  top: 2.5rem;
-  left: 24.5rem;
-}
