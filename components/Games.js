@@ -9,7 +9,7 @@ const getMedalPath = (index) => {
 
 const Games = ({ data = [] }) => (
   <div>
-    <h2>Juegos</h2>
+    <h2 id="games">Resultados</h2>
     <div className={styles.container}>
       {data.map((game, index) => (
         <div key={game.id} className={styles.game}>

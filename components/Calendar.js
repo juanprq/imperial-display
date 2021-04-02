@@ -24,7 +24,7 @@ const Calendar = ({ data }) => {
 
   return (
     <div>
-      <h2>Calendario de eventos</h2>
+      <h2 id="calendar">Calendario de eventos</h2>
       <div className={styles.container}>
         <RCalendar
           style="background"

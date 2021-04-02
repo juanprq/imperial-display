@@ -1,5 +1,6 @@
 import Head from 'next/Head';
 
+import Menu from '../components/Menu';
 import styles from './Layout.module.css';
 
 const Layout = ({ children, title }) => (
@@ -14,7 +15,7 @@ const Layout = ({ children, title }) => (
     ></div>
 
     <main>
-      menu...
+      <Menu />
       <h1>{title}</h1>
 
       {children}

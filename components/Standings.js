@@ -2,7 +2,7 @@ import styles from './Standings.module.css';
 
 const Standings = ({ data }) => (
   <div>
-    <h2>Standings</h2>
+    <h2 id="standings">Posiciones</h2>
     <div className={styles.container}>
       {data.map((player, index) => (
         <div key={player.nick} className={styles.player}>

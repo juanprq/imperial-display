@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  margin: 0 -1.5rem;
+  padding: 1rem;
+  justify-content: space-around;
+  background-color: blueviolet;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
