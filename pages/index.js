@@ -1,4 +1,4 @@
-import Head from 'next/Head';
+import Head from 'next/head';
 import Layout from '../components/Layout';
 import Rules from '../components/Rules';
 import Standings from '../components/Standings';
