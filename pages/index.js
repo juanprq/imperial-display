@@ -1,3 +1,4 @@
+import Head from 'next/Head';
 import Layout from '../components/Layout';
 import Rules from '../components/Rules';
 import Standings from '../components/Standings';
@@ -13,6 +14,10 @@ import datesData from '../lib/data/dates.json';
 
 const Home = ({ players, games, dates, points }) => (
   <Layout title="Torneo Twilight Imperium - AXM 2021">
+    <Head>
+      <title>Torneo Twilight Imperium - AXM 2021</title>
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
     <Rules points={points} />
     <Standings data={players} />
     <Games data={games} />
