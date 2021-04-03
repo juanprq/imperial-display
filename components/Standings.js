@@ -5,7 +5,7 @@ const Standings = ({ data }) => (
     <h2 id="standings">Posiciones</h2>
     <div className={styles.container}>
       {data.map((player, index) => (
-        <div key={player.nick} className={styles.player}>
+        <div id={player.nick} key={player.nick} className={styles.player}>
           <div className={styles.avatar}>
             <img src={player.avatar} alt={`${player.nick}_avatar`} />
           </div>

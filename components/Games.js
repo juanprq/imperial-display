@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import styles from './Games.module.css';
 
 const getMedalPath = (index) => {
@@ -11,7 +12,7 @@ const Games = ({ data = [] }) => (
   <div>
     <h2 id="games">Resultados</h2>
     <div className={styles.container}>
-      {data.map((game, index) => (
+      {data.map((game) => (
         <div key={game.id} className={styles.game}>
           <h3>
             {game.name}{' '}
@@ -35,7 +36,9 @@ const Games = ({ data = [] }) => (
                   key={player.nick}
                   className={classNames(styles.result, styles.row)}
                 >
-                  <div>{player.alias}</div>
+                  <AnchorLink href={`#${player.nick}`}>
+                    {player.alias}
+                  </AnchorLink>
                   <img
                     src={getMedalPath(index)}
                     width="15"

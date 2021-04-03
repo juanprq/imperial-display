@@ -65,3 +65,8 @@
   font-style: italic;
   text-align: center;
 }
+
+.result a {
+  color: midnightblue;
+  text-decoration: none;
+}
