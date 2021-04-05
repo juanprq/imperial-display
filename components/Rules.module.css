@@ -32,10 +32,16 @@
 
 .position {
   flex: 1;
-  text-align: center
+  text-align: center;
 }
 
 .equivalence {
   text-align: center;
   flex: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
 }
