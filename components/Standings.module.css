@@ -36,3 +36,14 @@
   font-weight: normal;
   font-style: italic;
 }
+
+@media screen and (max-width: 500px) {
+  .player {
+    flex-direction: column
+  }
+
+  .name span {
+    display: block;
+    text-align: center;
+  }
+}
