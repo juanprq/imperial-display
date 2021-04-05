@@ -42,6 +42,10 @@
     flex-direction: column
   }
 
+  .name {
+    text-align: center;
+  }
+
   .name span {
     display: block;
     text-align: center;
