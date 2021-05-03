@@ -20,13 +20,13 @@
   {
     "nick": "vulgar",
     "name": "Andres Felipe Ramirez",
-    "alias": "el vulgarete",
+    "alias": "El Vulgarete",
     "avatar": "https://avatars.dicebear.com/api/male/vulgar.svg"
   },
   {
     "nick": "andrade",
     "name": "Andres Felipe Andrade",
-    "alias": "Andrade",
+    "alias": "El Calvito",
     "avatar": "https://avatars.dicebear.com/api/male/andrade.svg"
   },
   {
@@ -34,5 +34,17 @@
     "name": "Alejandro León Galindo",
     "alias": "Chainer",
     "avatar": "https://avatars.dicebear.com/api/male/chainer.svg"
+  },
+  {
+    "nick": "jersson",
+    "name": "Jersson Gil",
+    "alias": "Jerss-On!",
+    "avatar": "https://avatars.dicebear.com/api/male/jersson.svg"
+  },
+  {
+    "nick": "mona",
+    "name": "Jose Daniel Martinez",
+    "alias": "Moná o Cambrai",
+    "avatar": "https://avatars.dicebear.com/api/male/mona.svg"
   }
 ]
